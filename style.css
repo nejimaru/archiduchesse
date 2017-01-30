@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  height: 167px;
+  border: 1px solid black;
+  background-image: url(bg.png);
+}
+.logo {
+  width: 319px;
+  height: 98px;
+  border: 1px solid black;
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+}
+
+.bouton {
+  width: 23%;
+  left: 495px;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  padding-top: 33px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.img {
+  width: 57px;
+  height: 56px;
+  float: left;
+  border: 1px solid black;
+}
+
+.inr {
+  margin: 0;
+  padding: 0;
+}
+
+li.menu {
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 11px;
+}
+span.fnt-menu {
+  font-size: 1.42em;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 19px;
+
+}
+
+.btn-hvr {
+  padding-left:13px;
+  padding-right: 13px;
+  paddind-top : 7px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.btn-hvr:hover {
+  text-decoration: none;
+  background-color: #FFF;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.menu {
+  width: 16%;
+}
+
+.nav {
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.active {
+  background-color: white;
+}
