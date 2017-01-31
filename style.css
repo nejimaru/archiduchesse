@@ -3,16 +3,18 @@ body {
 }
 
 .container {
-  margin-left: 101px;
-  margin-right: 104px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
+  width: 1140px;
 }
 
 header {
   height: 178.8px;
   border: 1px solid black;
   background-image: url(bg.png);
+  background-attachment: fixed;
 }
 .logo {
   width: 319px;
@@ -40,7 +42,7 @@ ul {
   width: 57px;
   height: 56px;
   float: left;
-  
+
 }
 
 .inr {
@@ -81,7 +83,7 @@ span.fnt-menu {
 }
 
 .menu {
-  width: 16%;
+  width: 179px;
 }
 
 .nav {
@@ -106,4 +108,24 @@ span.fnt-menu {
 .mrg {
   padding-top: 5px;
   font-size: 30px;
+}
+.md {
+  border: 1px solid black;
+  width: 265px;
+  height: 307.19px;
+}
+
+.img_prod {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenu_prod {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 1160px;
 }
