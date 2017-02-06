@@ -12,22 +12,24 @@ body {
 
 header {
   height: 178.8px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background-image: url(bg.png);
   background-attachment: fixed;
 }
 .logo {
   width: 319px;
   height: 98px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background-image: url(logo.svg);
   background-repeat: no-repeat;
+  float: left;
+
 }
 
 .bouton {
   width: 23%;
   left: 495px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: absolute;
   top: 0;
   padding-top: 33px;
@@ -88,7 +90,9 @@ span.fnt-menu {
 
 .nav {
 
-    margin-top: 23px;
+    margin-top: 0px;
+    padding-left: 6px;
+    padding-top: 123px;
 }
 
 .active {
@@ -126,6 +130,26 @@ span.fnt-menu {
   /*margin-left: auto;
   margin-right: auto;*/
 }
+
+.card {
+  background-image: url(ticket-repeat.png);
+    right: 0;
+    padding-bottom: 60px;
+    width: 308px;
+    top: 0;
+    float: right;
+    background-repeat: no-repeat;
+
+    height: 25px;
+    /*border: 1px solid black;*/
+    margin-right: 8px;
+}
+
+.card-bottom {
+      background-image: url(ticket-bas.png);
+      padding-top: 83px;
+      margin-top: 82px;
+      background-repeat: no-repeat;}
 
 .flex {
   display: flex;
